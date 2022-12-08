@@ -12,6 +12,7 @@ class Database
         // $userName = getenv('DB_USERNAME');
         // $password = getenv('DB_PASSWORD');
 
+        // add username and password below
         $this->connection = new PDO($dsn, '', '', [
             PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC
         ]);
